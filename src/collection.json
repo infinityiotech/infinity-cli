@@ -3,11 +3,12 @@
   "schematics": {
     "test": {
       "description": "A blank schematic.",
-      "factory": "./ad-cli/index#test"
+      "factory": "../build/ad-cli/init/index#test"
     },
     "init": {
       "description": "A blank schematic.",
-      "factory": "./ad-cli/index#init"
+      "factory": "../build/ad-cli/init/index#init",
+      "schema": "./ad-cli/init/schema.json"
     },
     "readDir": {
       "description": "A blank schematic.",

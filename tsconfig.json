@@ -20,6 +20,7 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",
+    "outDir": "build/",
     "types": [
       "jasmine",
       "node"
@@ -27,8 +28,9 @@
   },
   "include": [
     "src/**/*"
-  ],
+, "samples/for-dashboard"  ],
   "exclude": [
-    "src/*/files/**/*"
+    "src/*/files/**/*",
+    "samples/**/*"
   ]
 }
