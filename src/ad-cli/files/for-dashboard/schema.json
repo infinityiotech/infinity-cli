@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsForDashboard",
+  "title": "Generates AngularDash project structure and dependencies",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the application.",
+      "type": "string",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "path": {
+      "description": "The path to create the feature.",
+      "type": "string",
+      "format": "path",
+      "visible": false
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

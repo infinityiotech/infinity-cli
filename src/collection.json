@@ -1,0 +1,37 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "test": {
+      "description": "A blank schematic.",
+      "factory": "./ad-cli/index#test"
+    },
+    "init": {
+      "description": "A blank schematic.",
+      "factory": "./ad-cli/index#init"
+    },
+    "readDir": {
+      "description": "A blank schematic.",
+      "factory": "./ad-cli/index#readDir"
+    },
+    "removeAppFiles": {
+      "description": "A blank schematic.",
+      "factory": "./ad-cli/index#removeApplicationFiles"
+    },
+    "installApplicationFiles": {
+      "description": "A blank schematic.",
+      "factory": "./ad-cli/index#installApplicationFiles"
+    },
+    
+    "generate-files": {
+      "description": "Generates POC of our desired structure",
+      "factory": "./generate-files/index#generateFiles",
+      "aliases": [ "gfiles" ],
+      "schema": "./generate-files/schema.json"
+    },
+    "for-dashboard": {
+      "description": "Generates AngularDash project structure and dependencies",
+      "factory": "./for-dashboard/index#forDashboard",
+      "schema": "./for-dashboard/schema.json"
+    }
+  }
+}
