@@ -15,6 +15,7 @@
     "schematics"
   ],
   "author": "Shawn Dotey",
+  "email": "shawndotey@protonmail.com",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
