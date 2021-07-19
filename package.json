@@ -1,6 +1,10 @@
 {
-  "name": "ad-cli",
-  "version": "0.0.0",
+  "name": "infinity-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinityiotech/infinity-cli.git"
+  },
+  "version": "0.0.2",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -10,7 +14,8 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "Shawn Dotey",
+  "email": "shawndotey@protonmail.com",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
